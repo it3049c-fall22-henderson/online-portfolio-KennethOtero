@@ -1,0 +1,53 @@
+/* ================== Global Styling ================== */
+
+/* Remove any padding */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Make the height 100% (ideal for footers) */
+html,
+body {
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Remove bullet points */
+li {
+  list-style: none;
+}
+
+.myImage {
+  height: 500px;
+  object-fit: contain;
+  width: 100%;
+}
+
+/* ================== Section Styling ================== */
+
+.section {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #FAF9F6;
+  padding: 10px 15px;
+}
+
+.section h2 {
+  text-align: center;
+}
+
+.section li {
+  text-align: center;
+}
+
+.section p {
+  text-align: center;
+}
